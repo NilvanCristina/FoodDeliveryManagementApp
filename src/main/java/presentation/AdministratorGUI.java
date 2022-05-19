@@ -43,9 +43,9 @@ public class AdministratorGUI extends Component {
     private JTextArea resultTextArea = new JTextArea();
     private JButton logOutButton = new JButton("Log out");
 
-    DeliveryService deliveryService;
-    AdministratorController administratorController;
-    PresentationFunctions presentationFunctions = new PresentationFunctions();
+    private DeliveryService deliveryService;
+    private AdministratorController administratorController;
+    private PresentationFunctions presentationFunctions = new PresentationFunctions();
 
     public AdministratorGUI(DeliveryService deliveryService, User administrator) {
         this.deliveryService = deliveryService;

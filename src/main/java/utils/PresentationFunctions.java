@@ -83,4 +83,10 @@ public class PresentationFunctions {
 
         return jScrollPanel;
     }
+
+    public void refreshPage(JFrame frame) {
+        frame.invalidate();
+        frame.validate();
+        frame.repaint();
+    }
 }
